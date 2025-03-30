@@ -16,7 +16,7 @@ const Work = () => {
         my expertise in front-end development.
         </p>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10 '>
+        <div className='grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10 '>
             {workData.map((project,index) => (
                 
                 <div className='aspect-square relative bg-no-repeat bg-cover bg-center rounded-lg  cursor-pointer group'
@@ -36,7 +36,7 @@ const Work = () => {
             ))}
         </div>
 
-        <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] bordeer-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-pink-50 duration-500'>
+        <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-pink-50 duration-500'>
             show more <Image src={assets.right_arrow_bold } alt='right arrow' className='w-4'/>
         </a>
     </div>
