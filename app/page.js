@@ -15,7 +15,7 @@ import Work from "@/components/Work";
 export default function Home() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Header/>
     <About/>
     <Services/>
